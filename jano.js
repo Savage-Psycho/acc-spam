@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = ['681553671364018196'] // id xot da bne 
+const myid = ['531135249762222084'] // id xot da bne 
 const jano = new Discord.Client();
 const jano2 = new Discord.Client();
 const jano3 = new Discord.Client();
@@ -12,7 +12,7 @@ const jano6 = new Discord.Client();
 
 
 jano.on("ready", () => {
-  var join = jano.channels.get(""); /// id voice
+  var join = jano.channels.get("770914380212338699"); /// id voice
   if (join) join.join();
 });
 ///////////////////
@@ -221,7 +221,7 @@ if (message.content === 'owo') {
 });
 
 
-jano.login("");
+jano.login("NzQxNTk3MDk0NzE2MTEyOTU2.YK4j5g.Bw-FQRtmhRqUuEcei3999Z-TNj0");
 jano2.login("");
 jano3.login("");
 jano4.login("");
